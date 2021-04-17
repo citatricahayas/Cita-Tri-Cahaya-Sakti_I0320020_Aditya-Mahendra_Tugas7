@@ -1,10 +1,12 @@
 #Membuat program menggunakan fungsi list
-#Program menyapa
+#Program Fungsi String
 p = "selamat datang"
+print(p.center(30, "-"), "\n")
 
 x = "Halo nama, semoga harimu menyenangkan "
 ##Replace
 y = input("Silahkan input nama lengkap kamu : ")
+print(" ")
 x = x.replace("nama", y)
 print(x.upper())
 
